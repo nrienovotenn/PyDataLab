@@ -1,0 +1,9 @@
+# Repository: PyDataLab
+
+import pandas as pd
+
+# Read data from a CSV file
+data = pd.read_csv('data.csv')
+
+# Display the first few rows of the DataFrame
+print(data.head())
